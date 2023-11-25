@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{.name}}'s Profile</title>
+</head>
+<body>
+    <h1>{{.name}}</h1>
+    <p>username: {{.username}}</p>
+    <p>FirstName: {{.firstname}}</p>
+    <p>LastName: {{.lastname}}</p>
+    <p>Email: {{.email}}</p>
+
+    <form action="/logout" method="get">
+        <button type="submit">Logout</button>
+    </form>
+</body>
+</html>
